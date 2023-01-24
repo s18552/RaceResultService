@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: RaceResultServiceTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.297 s - in RaceResultServiceTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.77 s - in RaceResultServiceTest
