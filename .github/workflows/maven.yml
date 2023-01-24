@@ -42,6 +42,14 @@ jobs:
       run: |
         echo "coverage = ${{ steps.jacoco.outputs.coverage }}"
         echo "branch coverage = ${{ steps.jacoco.outputs.branches }}"
+    
+    - name: Generate the badge SVG image
+      uses: emibcn/badge-action@v1
+      with:
+        label: 'Test coverage'
+        status: ${{ steps.coverage.outputs.lines }}
+        color: 'blue,555,daf'
+        path: badge.svg
         
     - name: Upload coverage to Codecov  
       uses: codecov/codecov-action@v1
